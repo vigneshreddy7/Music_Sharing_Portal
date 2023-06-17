@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Page</title>
+</head>
+<body>
+  <form action="/submit_registration" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <!-- Add more form fields here -->
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
